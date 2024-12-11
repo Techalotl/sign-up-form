@@ -7,6 +7,43 @@
     <title>Sign-up form</title>
 </head>
 <body>
+    <div id="left-column">
+        <div>ODIN</div>
+        <p>Photo by <a href="https://unsplash.com/@haliewestphoto" rel="noopener noreferrer">Halie West</a>on <a href="https://unspash.com" rel="noopener noreferrer"></a></p>
+    </div>
+    <div id="right-column">
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+            Sign up <em>now</em> to get started.
+        </p>
+        <p>You <i>know</i> you want to.</p>
+        <div id="form-container">
+            <form action="" method="post">
+                <div id="inputs">
+                    <legend>Let's do this!</legend>
+                    <div>
+                        <label for="fname">First name:</label>
+                        <input type="text" id="fname" name="fname">
+                        <label for="lname">Last name:</label>
+                        <input type="text" id="lname" name="lname">
+                    </div>
+                    <div>
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email">
+                        <label for="tel">Phone number</label>
+                        <input type="tel" name="tel" id="tel">
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password">
+                        <label for="confirmation">Confirm Password</label>
+                        <input type="password" name="confirmation" id="confirmation">
+                    </div>
+                </div>
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="http://google.com" rel="noopener noreferrer">Log in.</a></p>
+            </form>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
